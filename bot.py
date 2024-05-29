@@ -43,7 +43,7 @@ async def ismmanosi(message:Message):
     manosi = ism_manosi_funksiyasi(ism=ism)
     text = f"{ism} manosi:\n{manosi}"
     if manosi == False:
-        text = "Afsuski topilmadi 😢"
+        text = "👽Afsuski topilmadi 😢"
     await message.answer(text=text)
 
 @dp.message(IsCheckSubChannels())
